@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.top,
+.upper,
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.upper .title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button,
+.actionbox {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.middle .title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.lower {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
