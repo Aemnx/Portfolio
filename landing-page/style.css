@@ -5,7 +5,6 @@ body {
   flex-direction: column;
   margin: 0;
 }
-
 .top,
 .upper,
 .footer {
@@ -13,56 +12,97 @@ body {
   color: #e5e7eb;
   font-size: 18px;
 }
-
 .logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 900;
+  padding-left: 120px;
 }
-
 .upper .title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
-
 button,
 .actionbox {
   background-color: #3882f6;
   color: #e5e7eb;
 }
-
 .middle .title {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
 }
-
 .lower {
   background-color: #e5e7eb;
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
 }
-
-.top {
+.top,
+.upper {
   display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+.top {
   height: 40px;
-  justify-content: space-around;
 }
 .linktable {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 24px;
+  padding-right: 220px;
 }
 .logo,
 .links {
   align-self: center;
 }
-
 .upper,
 .middle,
 .lower,
-.lowest {
-  flex-grow: 1;
+.lowest,
+.essay,
+.upper img {
+  flex: 1;
+}
+.upper {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.upper img {
+  align-self: center;
+  justify-self: center;
+}
+.essay .title,
+.essay .words {
+  margin-bottom: 8px;
+}
+button {
+  width: 89px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+.middle {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.middle .title {
+  display: flex;
+  justify-self: center;
+  margin-bottom: 8px;
+}
+.images {
+  display: flex;
+}
+
+.combo {
+  height: 120px;
+  width: 120px;
 }
