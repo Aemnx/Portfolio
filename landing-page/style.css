@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .top,
@@ -14,6 +17,7 @@ body {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .upper .title {
@@ -39,4 +43,26 @@ button,
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
+}
+
+.top {
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+}
+.linktable {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.logo,
+.links {
+  align-self: center;
+}
+
+.upper,
+.middle,
+.lower,
+.lowest {
+  flex-grow: 1;
 }
