@@ -71,6 +71,7 @@ button,
   height: 250px;
   width: auto;
   object-fit: contain;
+  background-color: grey;
 }
 .upper {
   padding-left: 120px;
@@ -107,18 +108,37 @@ button {
 .images {
   display: flex;
   justify-content: space-around;
-  gap: 24px;
+  gap: 54px;
 }
 
 .combo {
-  height: 120px;
-  width: 120px;
+  width: 180px;
 }
 
 .combo img {
-  width: 120px;
+  width: 150px;
   height: auto;
-  border: 2px blue;
+  border: 3px blue;
   border-style: solid;
-  border-radius: 8px;
+  border-radius: 32px;
+}
+
+.lower {
+  padding: 40px 120px 40px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  width: 900px;
+  justify-self: center;
+  align-self: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.human {
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 60%;
 }
