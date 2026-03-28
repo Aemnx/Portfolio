@@ -66,11 +66,17 @@ button,
 .upper img {
   flex: 1;
 }
+
+.upper img {
+  height: 250px;
+  width: auto;
+  object-fit: contain;
+}
 .upper {
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .upper img {
   align-self: center;
@@ -91,18 +97,28 @@ button {
   padding: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .middle .title {
-  display: flex;
-  justify-self: center;
   margin-bottom: 8px;
 }
 .images {
   display: flex;
+  justify-content: space-around;
+  gap: 24px;
 }
 
 .combo {
   height: 120px;
   width: 120px;
+}
+
+.combo img {
+  width: 120px;
+  height: auto;
+  border: 2px blue;
+  border-style: solid;
+  border-radius: 8px;
 }
