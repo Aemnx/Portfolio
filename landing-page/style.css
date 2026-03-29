@@ -78,6 +78,8 @@ button,
   padding-right: 120px;
   padding-top: 20px;
   padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .upper img {
   align-self: center;
@@ -176,4 +178,11 @@ button {
   display: flex;
   justify-content: center;
   padding: 40px 0px 40px 0px;
+}
+
+.upper .content {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
