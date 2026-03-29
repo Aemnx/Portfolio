@@ -171,3 +171,9 @@ button {
   align-self: center;
   border-radius: 8px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 40px 0px;
+}
