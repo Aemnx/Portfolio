@@ -127,6 +127,8 @@ button {
   padding: 40px 120px 40px 120px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote {
@@ -140,5 +142,32 @@ button {
 .human {
   font-size: 24px;
   font-weight: 900;
-  margin-left: 60%;
+  margin-left: 30%;
+}
+
+.lowest {
+  padding: 40px 0px 40px 0px;
+}
+
+.actionbox {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 150px;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  border-radius: 8px;
+  padding: 40px 150px 40px 150px;
+}
+
+.actionbox .title {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.actionbox button {
+  border: 3px solid white;
+  justify-self: center;
+  align-self: center;
+  border-radius: 8px;
 }
